@@ -1,0 +1,73 @@
+body {
+    margin-top: 20px;
+    background: #FAFAFA;
+}
+
+.order-card {
+    /* color: #fff; */
+    color: black;
+}
+
+.bg-c-blue {
+    background: linear-gradient(45deg, #4099ff, #73b4ff);
+}
+
+.bg-c-green {
+    background: linear-gradient(45deg, #2ed8b6, #59e0c5);
+}
+
+.bg-c-yellow {
+    background: linear-gradient(45deg, #FFB64D, #ffcb80);
+}
+
+.bg-c-pink {
+    background: linear-gradient(45deg, #FF5370, #ff869a);
+}
+
+.bg-c-gray {
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+    padding: 25px;
+}
+
+.order-card i {
+    font-size: 26px;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+.btn-style {
+    background-color: #569fff;
+    margin: 5px;
+    padding: 5px 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 3px #7bb4ff;
+    border: none;
+    border-radius: 3px;
+    display: block;
+}
+
+.btn-style:hover {
+    background-color: #187cff;
+    color: white;
+    text-decoration: none;
+}
